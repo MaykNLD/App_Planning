@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Planing</string>
+
+    <string name="btnLogin">Login</string>
+    <string name="btnRegistro">Registro</string>
+    <string name="btnSkip">Seguir sin registrar</string>
+
+    //Login
+    <string name="iniciarSesion">Iniciar Sesion</string>
+    <string name="crearCuentaTxt">Crear cuenta</string>
+    <string name="nombreEt">Nombre</string>
+    <string name="correoEt">Correo electornico</string>
+    <string name="contraseñaEt">Contraseña</string>
+    <string name="confirmarContraseñaEt">Confirmar contraseña</string>
+    <string name="registrar">Registrar</string>
+    <string name="tengoCuenta">Tengo cuenta</string>
+    <string name="noTengoCuenta">No tienes cuenta? Registrate</string>
+
+    //menu
+    <string name="cerrarSesion">Cerrar Sesion</string>
+    <string name="nombreP">--</string>
+    <string name="correoP">--</string>
+
+    //notas
+    <string name="notaDeporte">Deporte</string>
+    <string name="fechaHoraActual">Fecha y hora actual</string>
+    <string name="tipoEntrenamiento">Tipo de entrenamiento</string>
+    <string name="rutina">Rutina: </string>
+    <string name="btnCalendario">Calendario</string>
+    <string name="fecha">00/00/0000</string>
+    <string name="btnHora">Hora</string>
+    <string name="hora">00:00</string>
+    <string name="btnGuardar">Guardar</string>
+
+    //menuNotas
+    <string name="encabezado">Notas</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Planing1" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorTercero</item>
+        <item name="colorPrimaryVariant">@color/colorTercero</item>
+        <item name="colorOnPrimary">@color/colorCuarto</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecundando</item>
+        <item name="colorSecondaryVariant">@color/colorSecundando</item>
+        <item name="colorOnSecondary">@color/colorPrimero</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

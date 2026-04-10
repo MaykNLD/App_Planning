@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "294249045838",
+    "project_id": "planing-f52da",
+    "storage_bucket": "planing-f52da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294249045838:android:75bfca49ad9be3990e881f",
+        "android_client_info": {
+          "package_name": "com.example.planing1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294249045838-83n20m3qmeqp41josc6e5soj4qee0mo6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.planing1",
+            "certificate_hash": "2d17e77b0aa19e2d52df12537db7e9fa415dadeb"
+          }
+        },
+        {
+          "client_id": "294249045838-46pqgef723264ig1bug88hb4gck5duaq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpNNebwQLAzBCVhl-EU65YNsjH3aRTjh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294249045838-46pqgef723264ig1bug88hb4gck5duaq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

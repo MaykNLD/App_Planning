@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.Registro">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/crearCuentaTxt"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:gravity="center"/>
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            app:lottie_imageAssetsFolder="assets"
+            app:lottie_fileName="login.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/nombreEt"
+                android:hint="@string/nombreEt"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="20dp"
+                android:drawableStart="@drawable/ic_nombre"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/correoEt"
+                android:hint="@string/correoEt"
+                android:inputType="textEmailAddress"
+                android:padding="20dp"
+                android:drawableStart="@drawable/ic_correo"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            app:hintEnabled="false"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/contraseñaEt"
+                android:hint="@string/contraseñaEt"
+                android:padding="20dp"
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/ic_contrasena_persona"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            app:hintEnabled="false"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/confirmarContraseñaEt"
+                android:hint="@string/confirmarContraseñaEt"
+                android:padding="20dp"
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/ic_contrasena_persona"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/registroUsuario"
+            android:text="@string/registrar"
+            android:layout_marginTop="15dp"
+            android:textSize="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tengoCuenta"
+            android:text="@string/tengoCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:gravity="center"
+            android:layout_marginTop="15dp">
+
+        </TextView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

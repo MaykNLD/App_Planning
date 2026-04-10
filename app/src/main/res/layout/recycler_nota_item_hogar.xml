@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:layout_marginVertical="8dp"
+    android:backgroundTint="@color/colorCuarto"
+    android:background="@drawable/border_redondos">
+
+    <TextView
+        android:id="@+id/tareaTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarea"
+        android:textColor="@color/colorSecundando"
+        android:textSize="18dp"
+        android:layout_marginVertical="4dp"/>
+
+    <TextView
+        android:id="@+id/informacionTareaTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informacion Tarea"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:layout_marginVertical="4dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/fechaHogarRecycler"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:text="00/00/000"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+        <TextView
+            android:id="@+id/horaHogarRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:gravity="right"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:layout_marginVertical="4dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
